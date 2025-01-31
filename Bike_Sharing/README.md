@@ -4,7 +4,7 @@ This is a final project from Dicoding in the "Belajar Analisis Data dengan Pytho
 
 ## File Structures
 ```
-submission
+```submission```
       dashboard
             day.csv
             dashboard.py
