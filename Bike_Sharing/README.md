@@ -33,8 +33,8 @@ Bike_Sharing
 ## How to Use
 1. Clone this repository:
    ```
-   git clone
-    ```
+   git clone [https://github.com/nizma123/My_Portfolio.git](https://github.com/nizma123/My_Portfolio.git)
+   ```
 2. Navigate to the project directory:
    ```
    cd Bike_Sharing
