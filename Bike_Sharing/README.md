@@ -4,16 +4,16 @@ This is a final project from Dicoding in the "Belajar Analisis Data dengan Pytho
 
 ## File Structures
 ```
-└───submission
-    ├───dashboard
-    │       dashboard.py
-    │       day.csv
-    └───data
-    │       day.csv
-    │       hour.csv
-    │   notebook.ipynb
-    │   requirements.txt
-    │   README.md
-    │   url.txt
+submission
+├───dashboard
+│       dashboard.py
+│       day.csv
+└───data
+│       day.csv
+│       hour.csv
+├───notebook.ipynb
+├───requirements.txt
+├───README.md
+└───url.txt
 
 ```
