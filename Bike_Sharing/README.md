@@ -51,3 +51,18 @@ Bike_Sharing
    ```
    python streamlit run dashboard.py
    ```
+
+## Project Work Cycle
+1. Data Wrangling:
+   * Gathering data
+   * Assessing data
+   * Cleaning data
+2. Exploratory Data Analysis:
+   * Define business question for data exploration
+   * Create data exploration
+3. Data Visualization:
+   * Create data visualization that answer business question
+4. Dashboard:
+   * Set up dataframe which will be used
+   * Make filter components on the dashboard
+   * Complete the dashboard with various data visualizations
