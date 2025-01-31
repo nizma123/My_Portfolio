@@ -5,8 +5,8 @@ This is a final project from Dicoding in the "Belajar Analisis Data dengan Pytho
 ## File Structures
 ```
 submission
-    dashboard
-      day.csv
+|--    dashboard
+day.csv
       dashboard.py
     data
       day.csv
