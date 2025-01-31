@@ -32,12 +32,22 @@ Bike_Sharing
 
 ## How to Use
 1. Clone this repository:
-   ```git clone ```
+   ```
+   git clone
+    ```
 2. Navigate to the project directory:
-   ```cd Bike_Sharing```
+   ```
+   cd Bike_Sharing
+   ```
 3. Install depedencies:
-   ```pip install -r requirements.txt```
+   ```
+   pip install -r requirements.txt
+   ```
 4. Run the Jupyter Notebook:
-   ```jupyter notebook notebook.ipynb```
+   ```
+   jupyter notebook notebook.ipynb
+   ```
 5. To run the dashboard, execute the following command:
-   ```python streamlit run dashboard.py```
+   ```
+   python streamlit run dashboard.py
+   ```
