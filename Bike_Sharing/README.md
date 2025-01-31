@@ -75,4 +75,5 @@ Contributions are welcome! If you want to contribute to this project, follow the
 3. Make your changes and commit them (```git commit -m "Add new feature"```).
 4. Push to the branch (```git push origin feature-branch```).
 5. Open a Pull Request.
+
 Fell free to report any issues or suggest enhancements!
