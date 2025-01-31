@@ -5,7 +5,14 @@ This is a final project from Dicoding in the "Belajar Analisis Data dengan Pytho
 ## File Structures
 ```
 submission
-  dashboard
-    day.csv
-    dashboard.py
+    dashboard
+      day.csv
+      dashboard.py
+    data
+      day.csv
+      hour.csv
+    notebook.ipynb
+    README.md
+    requirements.txt
+    url.txt
 ```
