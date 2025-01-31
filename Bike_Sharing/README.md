@@ -4,15 +4,20 @@ This is a final project from Dicoding in the "Belajar Analisis Data dengan Pytho
 
 ## File Structures
 ```
-```submission```
-      dashboard
-            day.csv
-            dashboard.py
-      data
-            day.csv
-            hour.csv
-      notebook.ipynb
-      README.md
-      requirements.txt
-      url.txt
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 7090-64E0
+C:.
+³   notebook.ipynb
+³   requirements.txt
+³   README.MD
+³   url.txt
+³   
+ÃÄÄÄdashboard
+³       dashboard.py
+³       day.csv
+³       
+ÀÄÄÄdata
+        day.csv
+        hour.csv
+
 ```
