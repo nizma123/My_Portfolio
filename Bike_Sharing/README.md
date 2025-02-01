@@ -49,7 +49,7 @@ Bike_Sharing
    ```
 5. To run the dashboard, execute the following command:
    ```
-   python streamlit run dashboard.py
+   streamlit run dashboard/dashboard.py
    ```
 
 ## Project Work Cycle
@@ -66,6 +66,10 @@ Bike_Sharing
    * Set up dataframe which will be used
    * Make filter components on the dashboard
    * Complete the dashboard with various data visualizations
+
+## Dashboard
+![image](https://github.com/user-attachments/assets/85554c45-4da1-4391-b9a1-892c37a3df33)
+
 
 
 ## Contribution
