@@ -1,4 +1,4 @@
-# Bike Rentals - Final Project Data Analytics
+# 🚲 Bike Rentals - Final Project Data Analytics
 
 This is a final project from Dicoding in the "Belajar Analisis Data dengan Python" course to make analysis and create a dashboard from the bike sharing dataset. In the notebook file, I attached the way I did the analysis from Data Wrangling, Cleaning Data, Exploratory Data Analysis (EDA), and Data Visualization.
 
@@ -41,30 +41,6 @@ Bike_Sharing
 
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions, precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington D.C., USA which is publicly available in http://capitalbikeshare.com/system-data. We aggregated the data on two hourly and daily basis and then extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com.
 
-### Dataset Characteristics
-Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
-- instant: record index
-- dteday: date
-- season: season (1: spring, 2: summer, 3: fall, 4: winter)
-- yr: year (0: 2011, 1: 2012)
-- mnth: month (1 to 12)
-- hr: hour (0 to 23)
-- holiday: weather day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
-- weekday: day of the week
-- workingday: if day is neither weekend nor holiday is 1, otherwise is 0
-- weathersit:
-1. clear, few clouds, partly cloudy
-2. mist + cloudy, mist + broken clouds, mist + few clouds, mist
-3. light snow, light rain + thunderstorm + scattered clouds, light rain + scattered clouds
-4. heavy rain + ice pallets + thunderstorm + mist, snow + fog
-- temp: Normalized temperature in Celcius. The values are divided to 41 (max)
-- atemp: Normalized feeling temperature in Celcius. The values are devided to 50 (max)
-- hum: Normalized humidity. The values are devided to 100 (max)
-- windspeed: Normalized wind speed. The values are devided to 67 (max)
-- casual: count of casual users
-- registered: count of registered users
-- cnt: count of total rental bikes including both casual and registered
-
 ## How to Use
 1. Clone this repository:
    ```
@@ -82,7 +58,7 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
    ```
    jupyter notebook notebook.ipynb
    ```
-5. To run the dashboard, execute the following command:
+5. To run the dashboard on local, execute the following command:
    ```
    streamlit run dashboard/dashboard.py
    ```
@@ -102,7 +78,7 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
    * Make filter components on the dashboard
    * Complete the dashboard with various data visualizations
 
-## Dashboard
+## 📊 Dashboard
 ![image](https://github.com/user-attachments/assets/85554c45-4da1-4391-b9a1-892c37a3df33)
 
 
@@ -115,4 +91,8 @@ Contributions are welcome! If you want to contribute to this project, follow the
 4. Push to the branch (```git push origin feature-branch```).
 5. Open a Pull Request.
 
-Fell free to report any issues or suggest enhancements!
+
+## License
+Use of this dataset in publications must be cited to the following publication:
+
+[1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
