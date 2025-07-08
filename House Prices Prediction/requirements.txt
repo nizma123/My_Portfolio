@@ -1,9 +1,0 @@
-IPython
-hvplot
-matplotlib
-numpy
-pandas
-plotly
-scipy
-seaborn
-scikit-learn
